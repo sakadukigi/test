@@ -6,7 +6,7 @@
   "general": [
     {
       "id": 0,
-      "description": "自分の\nキャラクター数",
+      "description": "我がの\nキャラクターの数",
       "description_en": "Your\nCharacters"
     },
     {
@@ -16,32 +16,32 @@
     },
     {
       "id": 2,
-      "description": "プライベート",
+      "description": "*プラべにこもってます*",
       "description_en": "Private"
     },
     {
       "id": 3,
-      "description": "キャラクターエリア",
+      "description": "人類エリア",
       "description_en": "Character Area"
     },
     {
       "id": 4,
-      "description": "イベントカード 公開用スナップエリア",
+      "description": "イベントカード 開示用領域",
       "description_en": "Event Revealer"
     },
     {
       "id": 5,
-      "description": "イベントカードを置くと公開されます",
+      "description": "イベントカードを置くとさかづきに開示請求されます",
       "description_en": "Place an event card to reveal it"
     },
     {
       "id": 6,
-      "description": "食料エリア[果物]",
+      "description": "食料エリア[椎名林檎]",
       "description_en": "Food Area [Fruit]"
     },
     {
       "id": 7,
-      "description": "食料エリア[お肉]",
+      "description": "食料エリア[人肉]",
       "description_en": "Food Area [Meat]"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "id": 9,
-      "description": "順番決めカード",
+      "description": "謎の数字が書かれたカード",
       "description_en": "Turn Order Card"
     },
     {
@@ -96,12 +96,12 @@
     },
     {
       "id": 18,
-      "description": "お肉",
+      "description": "人肉",
       "description_en": "Meat"
     },
     {
       "id": 19,
-      "description": "お肉",
+      "description": "人肉",
       "description_en": "Meat"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "id": 26,
-      "description": "プレイヤー {0}",
+      "description": "人間その{0}",
       "description_en": "Player {0}"
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "id": 36,
-      "description": "Yay!",
+      "description": "国士無双　役満",
       "description_en": "Hooray!"
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "id": 39,
-      "description": "モニター表示<size=50%> (Local)</size>\n<size=50%>※描画負荷が高いので注意!</size>",
+      "description": "モニター表示<size=50%> (Local)</size>\n<size=50%>※くそ重いので注意!</size>",
       "description_en": "Show Monitors<size=50%> (Local)</size>\n<size=50%>※Costs performance!</size>"
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "id": 53,
-      "description": "秘密の設定",
+      "description": "秘密❤︎の設定",
       "description_en": "Secret Options"
     },
     {
@@ -458,7 +458,7 @@
     },
     {
       "id": 1,
-      "name": "お肉",
+      "name": "人肉",
       "name_en": "Meat",
       "icon": 1,
       "count": 25
@@ -512,14 +512,14 @@
     },
     {
       "id": 2,
-      "name": "Super bsy",
+      "name": "かわうち完全に理解したサメ",
       "name_en": "Paccie",
       "family": 3,
       "skill": "Totoi Missile",
       "skill_en": "Fish Network",
       "cost_1": 3,
       "cost_2": 3,
-      "description": "\n<sprite=12>10回探検する。",
+      "description": "カードを改変できるようになる\n<sprite=12>ついでに99回探検する。",
       "description_en": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=2>",
       "wants_1": 1,
       "wants_2": 3,
