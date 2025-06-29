@@ -1,0 +1,1909 @@
+{
+  "version": {
+    "world": 20601,
+    "text": "2025-04-25T15:00:00.000Z"
+  },
+  "general": [
+    {
+      "id": 0,
+      "description": "自分の\nキャラクター数",
+      "description_en": "Your\nCharacters"
+    },
+    {
+      "id": 1,
+      "description": "Use してカードを公開",
+      "description_en": "Use to reveal this card"
+    },
+    {
+      "id": 2,
+      "description": "プライベート",
+      "description_en": "Private"
+    },
+    {
+      "id": 3,
+      "description": "キャラクターエリア",
+      "description_en": "Character Area"
+    },
+    {
+      "id": 4,
+      "description": "イベントカード 公開用スナップエリア",
+      "description_en": "Event Revealer"
+    },
+    {
+      "id": 5,
+      "description": "イベントカードを置くと公開されます",
+      "description_en": "Place an event card to reveal it"
+    },
+    {
+      "id": 6,
+      "description": "食料エリア[果物]",
+      "description_en": "Food Area [Fruit]"
+    },
+    {
+      "id": 7,
+      "description": "食料エリア[お肉]",
+      "description_en": "Food Area [Meat]"
+    },
+    {
+      "id": 8,
+      "description": "食料エリア[お魚]",
+      "description_en": "Food Area [Fish]"
+    },
+    {
+      "id": 9,
+      "description": "順番決めカード",
+      "description_en": "Turn Order Card"
+    },
+    {
+      "id": 10,
+      "description": "キャラクター山札",
+      "description_en": "Character Deck"
+    },
+    {
+      "id": 11,
+      "description": "イベント山札",
+      "description_en": "Event Deck"
+    },
+    {
+      "id": 12,
+      "description": "イベント捨て場",
+      "description_en": "Event Discard"
+    },
+    {
+      "id": 13,
+      "description": "アイテム山札",
+      "description_en": "Item Deck"
+    },
+    {
+      "id": 14,
+      "description": "アイテム捨て場",
+      "description_en": "Item Discard"
+    },
+    {
+      "id": 15,
+      "description": "お部屋山札",
+      "description_en": "Room Deck"
+    },
+    {
+      "id": 16,
+      "description": "果物",
+      "description_en": "Fruit"
+    },
+    {
+      "id": 17,
+      "description": "果物",
+      "description_en": "Fruits"
+    },
+    {
+      "id": 18,
+      "description": "お肉",
+      "description_en": "Meat"
+    },
+    {
+      "id": 19,
+      "description": "お肉",
+      "description_en": "Meat"
+    },
+    {
+      "id": 20,
+      "description": "お魚",
+      "description_en": "Fish"
+    },
+    {
+      "id": 21,
+      "description": "お魚",
+      "description_en": "Fish"
+    },
+    {
+      "id": 22,
+      "description": "カード",
+      "description_en": "Card"
+    },
+    {
+      "id": 23,
+      "description": "カード",
+      "description_en": "Cards"
+    },
+    {
+      "id": 24,
+      "description": "捨て札",
+      "description_en": "Discard"
+    },
+    {
+      "id": 25,
+      "description": "捨て札",
+      "description_en": "Discards"
+    },
+    {
+      "id": 26,
+      "description": "プレイヤー {0}",
+      "description_en": "Player {0}"
+    },
+    {
+      "id": 27,
+      "description": "食料置き場",
+      "description_en": "Food Stockpile"
+    },
+    {
+      "id": 28,
+      "description": "食料整理フェイズ時 上限 12 枚",
+      "description_en": "Limit 12 in total (at Food Check phase)"
+    },
+    {
+      "id": 29,
+      "description": "キャラクター・お部屋置き場",
+      "description_en": "Characters / Rooms"
+    },
+    {
+      "id": 30,
+      "description": "{0} 枚並べると勝ち!",
+      "description_en": "WIN if you collect {0}"
+    },
+    {
+      "id": 31,
+      "description": "整頓",
+      "description_en": "Resort"
+    },
+    {
+      "id": 32,
+      "description": "シャッフル",
+      "description_en": "Shuffle"
+    },
+    {
+      "id": 33,
+      "description": "山札エリアに移動\n<size=50%>※シャッフルされません</size>",
+      "description_en": "Move to deck\n<size=50%>※Needs to shuffle</size>"
+    },
+    {
+      "id": 34,
+      "description": "公開用エリアに置いてカードを公開",
+      "description_en": "Put into Event Revealer to reveal"
+    },
+    {
+      "id": 35,
+      "description": "順番決め: {0} 番",
+      "description_en": "Turn order: No. {0}"
+    },
+    {
+      "id": 36,
+      "description": "Yay!",
+      "description_en": "Hooray!"
+    },
+    {
+      "id": 37,
+      "description": "合計",
+      "description_en": "Total"
+    },
+    {
+      "id": 38,
+      "description": "合計",
+      "description_en": "Total"
+    },
+    {
+      "id": 39,
+      "description": "モニター表示<size=50%> (Local)</size>\n<size=50%>※描画負荷が高いので注意!</size>",
+      "description_en": "Show Monitors<size=50%> (Local)</size>\n<size=50%>※Costs performance!</size>"
+    },
+    {
+      "id": 40,
+      "description": "無言勢用手持ち看板<size=50%> (Global)</size>\n<size=50%>マイクが使えない人向けの補助アイテムです。\nテーブルの後ろにスポーンします。</size>",
+      "description_en": "Action Text Pickups<size=50%> (Global)</size>\n<size=50%>Useful for non-voice users!\nSpawns behind the table.</size>"
+    },
+    {
+      "id": 41,
+      "description": "ピックアップをリスポーン",
+      "description_en": "Respawn Pickups"
+    },
+    {
+      "id": 42,
+      "description": "調達",
+      "description_en": "Collect"
+    },
+    {
+      "id": 43,
+      "description": "探検",
+      "description_en": "Explore"
+    },
+    {
+      "id": 44,
+      "description": "スキル",
+      "description_en": "Skill"
+    },
+    {
+      "id": 45,
+      "description": "建設",
+      "description_en": "Build"
+    },
+    {
+      "id": 46,
+      "description": "<sprite=1>",
+      "description_en": "<sprite=1>"
+    },
+    {
+      "id": 47,
+      "description": "<sprite=2>",
+      "description_en": "<sprite=2>"
+    },
+    {
+      "id": 48,
+      "description": "<sprite=3>",
+      "description_en": "<sprite=3>"
+    },
+    {
+      "id": 49,
+      "description": "ターン終了ボタン\n<size=50%>音が鳴ります</size>",
+      "description_en": "Turn End\n<size=50%>Notify with sound for next player</size>"
+    },
+    {
+      "id": 50,
+      "description": "食料数オーバー\n<size=50%>12枚になるように食料整理してください</size>",
+      "description_en": "Food Limit exceeded\n<size=50%>Discard foods down to 12</size>"
+    },
+    {
+      "id": 51,
+      "description": "カード設定",
+      "description_en": "Card Options"
+    },
+    {
+      "id": 52,
+      "description": "ゲームスタート・リセット後に反映されます",
+      "description_en": "Options will be applied at Start Game or Reset"
+    },
+    {
+      "id": 53,
+      "description": "秘密の設定",
+      "description_en": "Secret Options"
+    },
+    {
+      "id": 54,
+      "description": "拡張パック「プラス」\n<size=50%>※「使う」を推奨します！</size>",
+      "description_en": "Expansion: Plus\n<size=50%>※Recommanded to Enable this!</size>"
+    },
+    {
+      "id": 55,
+      "description": "拡張パック「B」",
+      "description_en": "Expansion: B"
+    },
+    {
+      "id": 56,
+      "description": "拡張パック「C」",
+      "description_en": "Expansion: C"
+    },
+    {
+      "id": 57,
+      "description": "拡張パック「D」",
+      "description_en": "Expansion: D"
+    },
+    {
+      "id": 58,
+      "description": "拡張パック「E」",
+      "description_en": "Expansion: E"
+    },
+    {
+      "id": 59,
+      "description": "使う",
+      "description_en": "Enable"
+    },
+    {
+      "id": 60,
+      "description": "使わない",
+      "description_en": "Disable"
+    },
+    {
+      "id": 61,
+      "description": "おうちの大きさ",
+      "description_en": "House Size"
+    },
+    {
+      "id": 62,
+      "description": "ミニ\n<size=50%><sprite=6>＋<sprite=9> 4枚で完成</size>",
+      "description_en": "Mini\n<size=50%><sprite=6>＋<sprite=9> = 4 to Complete</size>"
+    },
+    {
+      "id": 63,
+      "description": "いつもの\n<size=50%><sprite=6>＋<sprite=9> 8枚で完成</size>",
+      "description_en": "Default\n<size=50%><sprite=6>＋<sprite=9> = 8 to Complete</size>"
+    },
+    {
+      "id": 64,
+      "description": "二階建て\n<size=50%><sprite=6>＋<sprite=9> 12枚で完成</size>",
+      "description_en": "Two Floors\n<size=50%><sprite=6>＋<sprite=9> = 12 to Complete</size>"
+    },
+    {
+      "id": 65,
+      "description": "お部屋のコスト",
+      "description_en": "Build Cost"
+    },
+    {
+      "id": 66,
+      "description": "いつもの\n<size=50%><sprite=1><sprite=1><sprite=2><sprite=2><sprite=3><sprite=3></size>",
+      "description_en": "Default\n<size=50%><sprite=1><sprite=1><sprite=2><sprite=2><sprite=3><sprite=3></size>"
+    },
+    {
+      "id": 67,
+      "description": "ハガネ\n<size=50%><sprite=1><sprite=1><sprite=1><sprite=2><sprite=2><sprite=2><sprite=3><sprite=3><sprite=3></size>\n<size=20%>「設計図」使用時: <sprite=1><sprite=2><sprite=3></size>",
+      "description_en": "Steel Reinforced\n<size=50%><sprite=1><sprite=1><sprite=1><sprite=2><sprite=2><sprite=2><sprite=3><sprite=3><sprite=3></size>\n<size=20%><sprite=1><sprite=2><sprite=3> with \"Blueprint\"</size>"
+    },
+    {
+      "id": 68,
+      "description": "[ハガネのお部屋]\nこのターン、次に<sprite=6>キャラクターが建設する\nとき、そのコストを<sprite=1><sprite=2><sprite=3>にする。",
+      "description_en": "[Steel Reinforced Room]\nThis turn, the next time <sprite=6>Character does \"Build\", the cost becomes <sprite=1><sprite=2><sprite=3>."
+    },
+    {
+      "id": 69,
+      "description": "<sprite=6>キャラクターランダマイザ",
+      "description_en": "<sprite=6>Character Randomizer"
+    },
+    {
+      "id": 70,
+      "description": "なし",
+      "description_en": "Disabled"
+    },
+    {
+      "id": 71,
+      "description": "見た目のみ\n<size=30%>ゲームバランスに影響しない</size>",
+      "description_en": "Visual Only\n<size=30%>Won't affects gameplay</size>"
+    },
+    {
+      "id": 72,
+      "description": "ミディアム\n<size=30%>スキルとWantsが同じ好み内でシャッフル</size>",
+      "description_en": "Medium\n<size=30%>Skills and Wants are shuffled in same food type</size>"
+    },
+    {
+      "id": 73,
+      "description": "スーパー\n<size=30%>スキルとWantsがすべてランダム化</size>",
+      "description_en": "SUPER\n<size=30%>Skills and Wants are randomized</size>"
+    },
+    {
+      "id": 74
+    },
+    {
+      "id": 75,
+      "description": "<sprite=10>イベントランダマイザ",
+      "description_en": "<sprite=10>Event Randomizer"
+    },
+    {
+      "id": 76,
+      "description": "なし",
+      "description_en": "Disabled"
+    },
+    {
+      "id": 77,
+      "description": "ミディアム\n<size=30%>コモンイベントの内訳がランダム化</size>",
+      "description_en": "Medium\n<size=30%>Common events are randomized</size>"
+    },
+    {
+      "id": 78,
+      "description": "スーパー\n<size=30%>イベントがランダム化, コモン/レア/アイテムのイベント比率は維持</size>",
+      "description_en": "SUPER\n<size=30%>All is randomized, keeps ratio of common/rare/item events</size>"
+    },
+    {
+      "id": 79,
+      "description": "<sprite=8>アイテムランダマイザ",
+      "description_en": "<sprite=8>Item Randomizer"
+    },
+    {
+      "id": 80,
+      "description": "なし",
+      "description_en": "Disabled"
+    },
+    {
+      "id": 81,
+      "description": "ミディアム\n<size=30%>アイテムの内訳がランダム、1～3枚</size>",
+      "description_en": "Medium\n<size=30%>Randomized, 1 - 3 cards per item</size>"
+    },
+    {
+      "id": 82,
+      "description": "スーパー\n<size=30%>アイテムの内訳がランダム、数に制限なし</size>",
+      "description_en": "SUPER\n<size=30%>Randomized, no limit cards</size>"
+    },
+    {
+      "id": 83,
+      "description": "つきみちゃん切り替え",
+      "description_en": "Change \"Tukimi\""
+    },
+    {
+      "id": 84,
+      "description": "通常通り",
+      "description_en": "Default"
+    },
+    {
+      "id": 85,
+      "description": "TDMアバター集会",
+      "description_en": "TDM Meetup"
+    },
+    {
+      "id": 86,
+      "description": "一周年特別スキン\n<size=50%>キャラクターの一部が変わります\n(ゲームバランスは変わりません)</size>",
+      "description_en": "1st anniversary skin\n<size=50%>Changes some character cards\n(won't affect to gameplay)</size>"
+    },
+    {
+      "id": 87,
+      "description": "使わない",
+      "description_en": "Disable"
+    },
+    {
+      "id": 88,
+      "description": "使う",
+      "description_en": "Enable"
+    }
+  ],
+  "food": [
+    {
+      "id": 0,
+      "name": "果物",
+      "name_en": "Fruit",
+      "icon": 0,
+      "count": 25
+    },
+    {
+      "id": 1,
+      "name": "お肉",
+      "name_en": "Meat",
+      "icon": 1,
+      "count": 25
+    },
+    {
+      "id": 2,
+      "name": "お魚",
+      "name_en": "Fish",
+      "icon": 2,
+      "count": 25
+    }
+  ],
+  "character": [
+    {
+      "id": 0,
+      "name": "つきみ",
+      "name_en": "Tukimi",
+      "family": 1,
+      "skill": "狩猟本能！",
+      "skill_en": "Hunting Instinction!",
+      "cost_1": 1,
+      "cost_2": 1,
+      "description": "＋<sprite=2><sprite=2><sprite=3><sprite=3><sprite=3>",
+      "description_en": "＋<sprite=2><sprite=2><sprite=3><sprite=3><sprite=3>",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 2,
+      "material": 0,
+      "icon": 0,
+      "expansion": 1,
+      "credit": "char.ばーどまん"
+    },
+    {
+      "id": 1,
+      "name": "シャルベ",
+      "name_en": "Sherbi",
+      "family": 2,
+      "skill": "小さきハンター",
+      "skill_en": "The Little Hunter",
+      "cost_1": 2,
+      "cost_2": 2,
+      "description": "＋<sprite=1><sprite=1><sprite=1><sprite=3><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=1><sprite=3><sprite=3>",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 6,
+      "expansion": 1,
+      "credit": "char.かきのは edit.次長"
+    },
+    {
+      "id": 2,
+      "name": "Super bsy",
+      "name_en": "Paccie",
+      "family": 3,
+      "skill": "Totoi Missile",
+      "skill_en": "Fish Network",
+      "cost_1": 3,
+      "cost_2": 3,
+      "description": "\n<sprite=12>10回探検する。",
+      "description_en": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=2>",
+      "wants_1": 1,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 12,
+      "expansion": 1,
+      "credit": "char.ねっつー remix.sakaduki"
+    },
+    {
+      "id": 3,
+      "name": "ループ",
+      "name_en": "Loop",
+      "family": 1,
+      "skill": "夜行",
+      "skill_en": "Night Working",
+      "cost_1": 2,
+      "cost_2": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=1><sprite=1><sprite=1><sprite=1>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=1><sprite=1><sprite=1><sprite=1>",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 1,
+      "expansion": 1,
+      "credit": "char.りばば illus.ぶろ"
+    },
+    {
+      "id": 4,
+      "name": "クーグー",
+      "name_en": "Ccoogoo",
+      "family": 2,
+      "skill": "パワーフィードβ",
+      "skill_en": "Power Feeding β",
+      "cost_1": 1,
+      "cost_2": 3,
+      "description": "＋<sprite=2><sprite=2><sprite=2><sprite=2><sprite=2><sprite=2>",
+      "description_en": "＋<sprite=2><sprite=2><sprite=2><sprite=2><sprite=2><sprite=2>",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 7,
+      "expansion": 1,
+      "credit": "char.シーレ"
+    },
+    {
+      "id": 5,
+      "name": "ラルム",
+      "name_en": "Larme",
+      "family": 3,
+      "skill": "蒼幻の泡擁",
+      "skill_en": "Bubbles of Blue Phantom",
+      "cost_1": 1,
+      "cost_2": 2,
+      "description": "＋<sprite=3><sprite=3><sprite=3><sprite=3><sprite=3><sprite=3>",
+      "description_en": "＋<sprite=3><sprite=3><sprite=3><sprite=3><sprite=3><sprite=3>",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 13,
+      "expansion": 1,
+      "credit": "char.みゅう"
+    },
+    {
+      "id": 6,
+      "name": "シロビィ",
+      "name_en": "Xylobee",
+      "family": 1,
+      "skill": "カリバチの模倣",
+      "skill_en": "Imitate a Wasp",
+      "cost_1": 1,
+      "cost_2": 1,
+      "description": "＋<sprite=2><sprite=3>\n<sprite=11>1枚調査し探検する。",
+      "description_en": "＋<sprite=2><sprite=3>\n<sprite=11>Research 1 event and Explore.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 2,
+      "expansion": 1,
+      "credit": "char.ねむ"
+    },
+    {
+      "id": 7,
+      "name": "みどりねこ",
+      "name_en": "Midorineko",
+      "family": 2,
+      "skill": "食後のダイエット",
+      "skill_en": "Diet after Dinner",
+      "cost_1": 2,
+      "cost_2": 2,
+      "description": "＋<sprite=1><sprite=3>\n<sprite=11>1枚調査し探検する。",
+      "description_en": "＋<sprite=1><sprite=3>\n<sprite=11>Research 1 event and Explore.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 0,
+      "icon": 8,
+      "expansion": 1,
+      "credit": "char.ぶ～け"
+    },
+    {
+      "id": 8,
+      "name": "レコ",
+      "name_en": "Reco",
+      "family": 3,
+      "skill": "偵察任務",
+      "skill_en": "Scouting Mission",
+      "cost_1": 3,
+      "cost_2": 3,
+      "description": "＋<sprite=1><sprite=2>\n<sprite=11>1枚調査し探検する。",
+      "description_en": "＋<sprite=1><sprite=2>\n<sprite=11>Research 1 event and Explore.",
+      "wants_1": 2,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 14,
+      "expansion": 1,
+      "credit": "char.ぶろ"
+    },
+    {
+      "id": 9,
+      "name": "ちんちらチャン",
+      "name_en": "Chinchira-chan",
+      "family": 1,
+      "skill": "しゅちにくりん",
+      "skill_en": "Sumptuous Feast",
+      "cost_1": 2,
+      "cost_2": 2,
+      "cost_3": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=1><sprite=1>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=1><sprite=1><sprite=1><sprite=1>\n<sprite=12>Explore once.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 0,
+      "icon": 3,
+      "expansion": 1,
+      "credit": "char.ざくろ"
+    },
+    {
+      "id": 10,
+      "name": "ナヴィル",
+      "name_en": "Knovill",
+      "family": 2,
+      "skill": "知恵の開封",
+      "skill_en": "Open the Wisdom!",
+      "cost_1": 1,
+      "cost_2": 3,
+      "cost_3": 3,
+      "description": "＋<sprite=2><sprite=2><sprite=2><sprite=2>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=2><sprite=2><sprite=2><sprite=2>\n<sprite=12>Explore once.",
+      "wants_1": 2,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 9,
+      "expansion": 1,
+      "credit": "char.レフとんぼ illus.ねっつー"
+    },
+    {
+      "id": 11,
+      "name": "しろころ＆くろころ",
+      "name_en": "Shirokoro & Kurokoro",
+      "family": 3,
+      "skill": "賽は投げられた",
+      "skill_en": "The Die is Cast",
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 2,
+      "description": "＋<sprite=3><sprite=3><sprite=3><sprite=3>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=3><sprite=3><sprite=3><sprite=3>\n<sprite=12>Explore once.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 15,
+      "expansion": 1,
+      "credit": "char.文月甜瓜"
+    },
+    {
+      "id": 12,
+      "name": "シエラ",
+      "name_en": "Siela",
+      "family": 1,
+      "skill": "月明かりの導き",
+      "skill_en": "Leading of Moonlit",
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 3,
+      "description": "＋<sprite=2>\n<sprite=12>2回探検する。",
+      "description_en": "＋<sprite=2>\n<sprite=12>Explore twice.",
+      "wants_1": 1,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 4,
+      "expansion": 1,
+      "credit": "char.つなかん edit.わかくさ illus.ざくろ"
+    },
+    {
+      "id": 13,
+      "name": "フォリア",
+      "name_en": "Folia",
+      "family": 2,
+      "skill": "たべあるき",
+      "skill_en": "Eat and Walk",
+      "cost_1": 1,
+      "cost_2": 2,
+      "cost_3": 2,
+      "description": "＋<sprite=3>\n<sprite=12>2回探検する。",
+      "description_en": "＋<sprite=3>\n<sprite=12>Explore twice.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 2,
+      "material": 0,
+      "icon": 10,
+      "expansion": 1,
+      "credit": "char.かきのは"
+    },
+    {
+      "id": 14,
+      "name": "シアン",
+      "name_en": "Cyan",
+      "family": 3,
+      "skill": "空の見廻り",
+      "skill_en": "Sky Patrol",
+      "cost_1": 2,
+      "cost_2": 3,
+      "cost_3": 3,
+      "description": "＋<sprite=1>\n<sprite=12>2回探検する。",
+      "description_en": "＋<sprite=1>\n<sprite=12>Explore twice.",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 16,
+      "expansion": 1,
+      "credit": "char.にとりる"
+    },
+    {
+      "id": 15,
+      "name": "テンカ",
+      "name_en": "Tenka",
+      "family": 1,
+      "skill": "おやつはもった？",
+      "skill_en": "Got You Snack?",
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 1,
+      "cost_4": 1,
+      "description": "他のプレイヤーは全員＋<sprite=1>\n<sprite=12>3回探検する。",
+      "description_en": "Each other players gains ＋<sprite=1>\n<sprite=12>Explore three times.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 1,
+      "material": 0,
+      "icon": 5,
+      "expansion": 1,
+      "credit": "char.文月甜瓜"
+    },
+    {
+      "id": 16,
+      "name": "たけしば",
+      "name_en": "Takeshiba",
+      "family": 2,
+      "skill": "嗅覚のみちしるべ",
+      "skill_en": "Guide of Smell",
+      "cost_1": 2,
+      "cost_2": 2,
+      "cost_3": 2,
+      "cost_4": 2,
+      "description": "他のプレイヤーは全員＋<sprite=2>\n<sprite=12>3回探検する。",
+      "description_en": "Each other players gains ＋<sprite=2>\n<sprite=12>Explore three times.",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 0,
+      "icon": 11,
+      "expansion": 1,
+      "credit": "char.すばた"
+    },
+    {
+      "id": 17,
+      "name": "マイ",
+      "name_en": "Mai",
+      "family": 3,
+      "skill": "魚で鯱を釣る",
+      "skill_en": "Fish Orca with Fish",
+      "cost_1": 3,
+      "cost_2": 3,
+      "cost_3": 3,
+      "cost_4": 3,
+      "description": "他のプレイヤーは全員＋<sprite=3>\n<sprite=12>3回探検する。",
+      "description_en": "Each other players gains ＋<sprite=3>\n<sprite=12>Explore three times.",
+      "wants_1": 3,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 0,
+      "icon": 17,
+      "expansion": 1,
+      "credit": "char.ムネネコ"
+    },
+    {
+      "id": 18,
+      "name": "クロッシェ",
+      "name_en": "Qrochet",
+      "family": 1,
+      "skill": "ぬいぐるみ化",
+      "skill_en": "Plushiemorph",
+      "cost_1": 1,
+      "cost_2": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=3>",
+      "wants_1": 1,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 0,
+      "expansion": 2,
+      "credit": "char.かきのは"
+    },
+    {
+      "id": 19,
+      "name": "モッフル",
+      "name_en": "Mofful",
+      "family": 2,
+      "skill": "からふるもっふる",
+      "skill_en": "Colorful Mofful",
+      "cost_1": 1,
+      "cost_2": 2,
+      "description": "＋<sprite=1><sprite=2><sprite=2><sprite=3><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=2><sprite=2><sprite=3><sprite=3>",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 2,
+      "material": 1,
+      "icon": 6,
+      "expansion": 2,
+      "credit": "char.にとりる"
+    },
+    {
+      "id": 20,
+      "name": "ほしかけくん",
+      "name_en": "Hoshikake-kun",
+      "family": 3,
+      "skill": "スタートレイル",
+      "skill_en": "Star Trails",
+      "cost_1": 2,
+      "cost_2": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=2><sprite=3><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=2><sprite=3><sprite=3>",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 12,
+      "expansion": 2,
+      "credit": "char.ほしかけ illus.みゅう"
+    },
+    {
+      "id": 21,
+      "name": "バットリィ",
+      "name_en": "Battry",
+      "family": 1,
+      "skill": "充電完了だヨ！",
+      "skill_en": "I'm Charged!",
+      "cost_1": 1,
+      "cost_2": 1,
+      "description": "＋<sprite=2><sprite=3>、<sprite=12>1回探検する。\nそれが「採集」の場合＋<sprite=1>",
+      "description_en": "＋<sprite=2><sprite=3>、<sprite=12>Explore once;\nif it's \"Foraging\", ＋<sprite=1>",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 1,
+      "material": 1,
+      "icon": 1,
+      "expansion": 2,
+      "credit": "char.こけむし"
+    },
+    {
+      "id": 22,
+      "name": "リク",
+      "name_en": "Riku",
+      "family": 2,
+      "skill": "マシンハーベスト",
+      "skill_en": "Harvesting Machines",
+      "cost_1": 2,
+      "cost_2": 2,
+      "description": "＋<sprite=1><sprite=3>、<sprite=12>1回探検する。\nそれが「採集」の場合＋<sprite=2>",
+      "description_en": "＋<sprite=1><sprite=3>、<sprite=12>Explore once;\nif it's \"Foraging\", ＋<sprite=2>",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 1,
+      "icon": 7,
+      "expansion": 2,
+      "credit": "char.ムネネコ"
+    },
+    {
+      "id": 23,
+      "name": "ラグナ",
+      "name_en": "Laguna",
+      "family": 3,
+      "skill": "海幸山サーチ",
+      "skill_en": "SeaLand Search",
+      "cost_1": 3,
+      "cost_2": 3,
+      "description": "＋<sprite=1><sprite=2>、<sprite=12>1回探検する。\nそれが「採集」の場合＋<sprite=3>",
+      "description_en": "＋<sprite=1><sprite=2>、<sprite=12>Explore once;\nif it's \"Foraging\", ＋<sprite=3>",
+      "wants_1": 3,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 13,
+      "expansion": 2,
+      "credit": "char.すばた"
+    },
+    {
+      "id": 24,
+      "name": "チノピー",
+      "name_en": "TinoP",
+      "family": 1,
+      "skill": "AIブラウジング",
+      "skill_en": "AI Browsing",
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 2,
+      "description": "<sprite=12>1回探検する。\n<sprite=11>2枚調査し探検する。",
+      "description_en": "<sprite=12>Explore once.\n<sprite=11>Research 2 events and Explore.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 1,
+      "icon": 2,
+      "expansion": 2,
+      "credit": "char.マスティ"
+    },
+    {
+      "id": 25,
+      "name": "リン",
+      "name_en": "Rin",
+      "family": 2,
+      "skill": "よるのおさんぽ♡",
+      "skill_en": "Nighttime Stroll♡",
+      "cost_1": 2,
+      "cost_2": 2,
+      "cost_3": 3,
+      "description": "<sprite=12>1回探検する。\n<sprite=11>2枚調査し探検する。",
+      "description_en": "<sprite=12>Explore once.\n<sprite=11>Research 2 events and Explore.",
+      "wants_1": 2,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 8,
+      "expansion": 2,
+      "credit": "char.ばーどまん"
+    },
+    {
+      "id": 26,
+      "name": "アル",
+      "name_en": "Al",
+      "family": 3,
+      "skill": "シロネズミの先導",
+      "skill_en": "Mouse's Leading",
+      "cost_1": 1,
+      "cost_2": 3,
+      "cost_3": 3,
+      "description": "<sprite=12>1回探検する。\n<sprite=11>2枚調査し探検する。",
+      "description_en": "<sprite=12>Explore once.\n<sprite=11>Research 2 events and Explore.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 14,
+      "expansion": 2,
+      "credit": "char.シーレ"
+    },
+    {
+      "id": 27,
+      "family": 1,
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 1,
+      "description": "1つ選ぶ:「＋<sprite=2><sprite=2><sprite=2><sprite=2><sprite=2><sprite=2>」\n;「＋<sprite=2><sprite=2><sprite=2><sprite=3><sprite=3><sprite=3>」",
+      "description_en": "Choose one: \"＋<sprite=2><sprite=2><sprite=2><sprite=2><sprite=2><sprite=2>\"\n; \"＋<sprite=2><sprite=2><sprite=2><sprite=3><sprite=3><sprite=3>\"",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 3,
+      "expansion": 3,
+      "hidden": 100
+    },
+    {
+      "id": 28,
+      "family": 2,
+      "cost_1": 2,
+      "cost_2": 2,
+      "cost_3": 2,
+      "description": "1つ選ぶ:「＋<sprite=3><sprite=3><sprite=3><sprite=3><sprite=3><sprite=3>」\n;「＋<sprite=1><sprite=1><sprite=1><sprite=3><sprite=3><sprite=3>」",
+      "description_en": "Choose one: \"＋<sprite=3><sprite=3><sprite=3><sprite=3><sprite=3><sprite=3>\"\n; \"＋<sprite=1><sprite=1><sprite=1><sprite=3><sprite=3><sprite=3>\"",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 2,
+      "material": 1,
+      "icon": 9,
+      "expansion": 3,
+      "hidden": 101
+    },
+    {
+      "id": 29,
+      "family": 3,
+      "cost_1": 3,
+      "cost_2": 3,
+      "cost_3": 3,
+      "description": "1つ選ぶ:「＋<sprite=1><sprite=1><sprite=1><sprite=1><sprite=1><sprite=1>」\n;「＋<sprite=1><sprite=1><sprite=1><sprite=2><sprite=2><sprite=2>」",
+      "description_en": "Choose one: \"＋<sprite=1><sprite=1><sprite=1><sprite=1><sprite=1><sprite=1>\"\n; \"＋<sprite=1><sprite=1><sprite=1><sprite=2><sprite=2><sprite=2>\"",
+      "wants_1": 2,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 15,
+      "expansion": 3,
+      "hidden": 102
+    },
+    {
+      "id": 30,
+      "family": 1,
+      "cost_1": 1,
+      "cost_2": 1,
+      "cost_3": 1,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>Explore once.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 4,
+      "expansion": 3,
+      "hidden": 103
+    },
+    {
+      "id": 31,
+      "family": 2,
+      "cost_1": 2,
+      "cost_2": 2,
+      "cost_3": 2,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>Explore once.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 10,
+      "expansion": 3,
+      "hidden": 104
+    },
+    {
+      "id": 32,
+      "family": 3,
+      "cost_1": 3,
+      "cost_2": 3,
+      "cost_3": 3,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>1回探検する。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=12>Explore once.",
+      "wants_1": 1,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 16,
+      "expansion": 3,
+      "hidden": 105
+    },
+    {
+      "id": 33,
+      "family": 1,
+      "cost_1": 1,
+      "cost_2": 2,
+      "description": "<sprite=12>2回探検する。\n<sprite=1>果物1枚を食料エリアに戻す。",
+      "description_en": "<sprite=12>Explore twice.\nReturn <sprite=1> 1 Fruit to Food Area.",
+      "wants_1": 1,
+      "wants_2": 1,
+      "wants_3": 2,
+      "material": 1,
+      "icon": 5,
+      "expansion": 3,
+      "hidden": 106
+    },
+    {
+      "id": 34,
+      "family": 2,
+      "cost_1": 2,
+      "cost_2": 3,
+      "description": "<sprite=12>2回探検する。\n<sprite=2>お肉1枚を食料エリアに戻す。",
+      "description_en": "<sprite=12>Explore twice.\nReturn <sprite=2> 1 Meat to Food Area.",
+      "wants_1": 2,
+      "wants_2": 2,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 11,
+      "expansion": 3,
+      "hidden": 107
+    },
+    {
+      "id": 35,
+      "family": 3,
+      "cost_1": 1,
+      "cost_2": 3,
+      "description": "<sprite=12>2回探検する。\n<sprite=3>お魚1枚を食料エリアに戻す。",
+      "description_en": "<sprite=12>Explore twice.\nReturn <sprite=3> 1 Fish to Food Area.",
+      "wants_1": 1,
+      "wants_2": 3,
+      "wants_3": 3,
+      "material": 1,
+      "icon": 17,
+      "expansion": 3,
+      "hidden": 108
+    }
+  ],
+  "character_skin": [
+    {
+      "skinId": 1,
+      "target": 0,
+      "material": 2,
+      "icon": 0,
+      "expansionIcon": 9,
+      "skill": "秘技・つまみ食い",
+      "skill_en": "Super Sneaky Nibbles",
+      "pediaIndex": 100,
+      "skillChange": 21,
+      "credit": "char.ばーどまん"
+    },
+    {
+      "skinId": 1,
+      "target": 1,
+      "material": 2,
+      "icon": 6,
+      "expansionIcon": 9,
+      "skill": "くす玉サプライズ",
+      "skill_en": "Kusudama Surprise",
+      "pediaIndex": 101,
+      "skillChange": 16,
+      "credit": "char.かきのは edit.次長"
+    },
+    {
+      "skinId": 1,
+      "target": 2,
+      "material": 2,
+      "icon": 12,
+      "expansionIcon": 9,
+      "skill": "鮮魚盛り合わせ",
+      "skill_en": "Fish Assorted",
+      "pediaIndex": 102,
+      "skillChange": 14,
+      "credit": "char.ねっつー"
+    },
+    {
+      "skinId": 1,
+      "target": 5,
+      "material": 2,
+      "icon": 13,
+      "expansionIcon": 9,
+      "pediaIndex": 105,
+      "skillChange": 8,
+      "credit": "char.みゅう"
+    },
+    {
+      "skinId": 1,
+      "target": 6,
+      "material": 2,
+      "icon": 1,
+      "expansionIcon": 9,
+      "skill": "ハナバチの直感",
+      "skill_en": "Intuition of Bumblebee",
+      "pediaIndex": 106,
+      "skillChange": 9,
+      "credit": "char.ねむ illus.らてのす"
+    },
+    {
+      "skinId": 1,
+      "target": 7,
+      "material": 2,
+      "icon": 7,
+      "expansionIcon": 9,
+      "skill": "チートデイ",
+      "skill_en": "Cheat Day",
+      "pediaIndex": 107,
+      "skillChange": 13,
+      "credit": "char.ぶ～け"
+    },
+    {
+      "skinId": 1,
+      "target": 8,
+      "material": 2,
+      "icon": 14,
+      "expansionIcon": 9,
+      "skill": "84mm無反動砲",
+      "skill_en": "84mm Recoilless Rifle",
+      "pediaIndex": 108,
+      "skillChange": 17,
+      "credit": "char.ぶろ"
+    },
+    {
+      "skinId": 1,
+      "target": 9,
+      "material": 2,
+      "icon": 2,
+      "expansionIcon": 9,
+      "skill": "バイブスあげてこ",
+      "skill_en": "Raise the Vibes",
+      "pediaIndex": 109,
+      "skillChange": 0,
+      "credit": "char.ざくろ"
+    },
+    {
+      "skinId": 1,
+      "target": 10,
+      "material": 2,
+      "icon": 8,
+      "expansionIcon": 9,
+      "skill": "叡智の祝砲",
+      "skill_en": "Fireworks of Wisdom",
+      "pediaIndex": 110,
+      "skillChange": 7,
+      "credit": "char.レフとんぼ"
+    },
+    {
+      "skinId": 1,
+      "target": 11,
+      "material": 2,
+      "icon": 15,
+      "expansionIcon": 9,
+      "skill": "祝福モノクローム",
+      "skill_en": "Monochrome Blessing",
+      "pediaIndex": 111,
+      "skillChange": 5,
+      "credit": "char.文月甜瓜"
+    },
+    {
+      "skinId": 1,
+      "target": 13,
+      "material": 2,
+      "icon": 9,
+      "expansionIcon": 9,
+      "skill": "ひとりじめ",
+      "skill_en": "Whole is Mine",
+      "pediaIndex": 113,
+      "skillChange": 1,
+      "credit": "char.かきのは"
+    },
+    {
+      "skinId": 1,
+      "target": 14,
+      "material": 2,
+      "icon": 16,
+      "expansionIcon": 9,
+      "skill": "パーティディナー",
+      "skill_en": "Party Dinner",
+      "pediaIndex": 114,
+      "skillChange": 11,
+      "credit": "char.にとりる"
+    },
+    {
+      "skinId": 1,
+      "target": 15,
+      "material": 2,
+      "icon": 3,
+      "expansionIcon": 9,
+      "skill": "しこうのふわふわ",
+      "skill_en": "Supreme Fluff",
+      "pediaIndex": 115,
+      "skillChange": 6,
+      "credit": "char.文月甜瓜"
+    },
+    {
+      "skinId": 1,
+      "target": 16,
+      "material": 2,
+      "icon": 10,
+      "expansionIcon": 9,
+      "skill": "待てないごちそう",
+      "skill_en": "Can't wait the Feast!",
+      "pediaIndex": 116,
+      "skillChange": 10,
+      "credit": "char.すばた"
+    },
+    {
+      "skinId": 1,
+      "target": 17,
+      "material": 2,
+      "icon": 17,
+      "expansionIcon": 9,
+      "skill": "特製天体観測パイ",
+      "skill_en": "Special Stargazing Pie",
+      "pediaIndex": 117,
+      "skillChange": 2,
+      "credit": "char.ムネネコ"
+    },
+    {
+      "skinId": 1,
+      "target": 21,
+      "material": 2,
+      "icon": 4,
+      "expansionIcon": 9,
+      "skill": "ヒーローダイナモ",
+      "skill_en": "Hero's Dynamo",
+      "pediaIndex": 121,
+      "skillChange": 15,
+      "credit": "char.こけむし"
+    },
+    {
+      "skinId": 100,
+      "target": 0,
+      "material": 0,
+      "icon": 18,
+      "expansionIcon": 8,
+      "credit": "char.ばーどまん edit.かにお"
+    }
+  ],
+  "event": [
+    {
+      "id": 0,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 0,
+      "expansion": 1,
+      "count": 2,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=1>",
+      "description_en": "＋<sprite=1><sprite=1>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 1,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 1,
+      "expansion": 1,
+      "count": 2,
+      "type": 1,
+      "description": "＋<sprite=2><sprite=2>",
+      "description_en": "＋<sprite=2><sprite=2>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 2,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 2,
+      "expansion": 1,
+      "count": 2,
+      "type": 1,
+      "description": "＋<sprite=3><sprite=3>",
+      "description_en": "＋<sprite=3><sprite=3>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 3,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 3,
+      "expansion": 1,
+      "count": 3,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=2>",
+      "description_en": "＋<sprite=1><sprite=2>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 4,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 4,
+      "expansion": 1,
+      "count": 3,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=3>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 5,
+      "name": "採集",
+      "name_en": "Foraging",
+      "material": 0,
+      "icon": 5,
+      "expansion": 1,
+      "count": 3,
+      "type": 1,
+      "description": "＋<sprite=2><sprite=3>",
+      "description_en": "＋<sprite=2><sprite=3>",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 6,
+      "name": "乱獲",
+      "name_en": "Over-Foraging",
+      "material": 0,
+      "icon": 6,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=1>\n他のプレイヤーは、<sprite=6>キャラクターの数と<sprite=9>お部屋の数の合計が\nあなた以上である場合、<sprite=1>果物1枚を食料エリアに戻す。",
+      "description_en": "＋<sprite=1><sprite=1>\nEach other players: if their total cards of <sprite=6>Characters and <sprite=9>Rooms is same or more than you, return <sprite=1>1 Fruit to the Food Area.",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 7,
+      "name": "乱獲",
+      "name_en": "Over-Foraging",
+      "material": 0,
+      "icon": 7,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=2><sprite=2>\n他のプレイヤーは、<sprite=6>キャラクターの数と<sprite=9>お部屋の数の合計が\nあなた以上である場合、<sprite=2>お肉1枚を食料エリアに戻す。",
+      "description_en": "＋<sprite=2><sprite=2>\nEach other players: if their total cards of <sprite=6>Characters and <sprite=9>Rooms is same or more than you, return <sprite=2>1 Meat to the Food Area.",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 8,
+      "name": "乱獲",
+      "name_en": "Over-Foraging",
+      "material": 0,
+      "icon": 8,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=3><sprite=3>\n他のプレイヤーは、<sprite=6>キャラクターの数と<sprite=9>お部屋の数の合計が\nあなた以上である場合、<sprite=3>お魚1枚を食料エリアに戻す。",
+      "description_en": "＋<sprite=3><sprite=3>\nEach other players: if their total cards of <sprite=6>Characters and <sprite=9>Rooms is same or more than you, return <sprite=3>1 Fish to the Food Area.",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 9,
+      "name": "発見",
+      "name_en": "Discover",
+      "material": 0,
+      "icon": 9,
+      "expansion": 1,
+      "count": 8,
+      "type": 2,
+      "description": "<sprite=8>アイテム1枚を獲得する。",
+      "description_en": "Gain <sprite=8>1 Item.",
+      "credit": "illus.文月甜瓜"
+    },
+    {
+      "id": 10,
+      "name": "大発見",
+      "name_en": "Great Discover",
+      "material": 0,
+      "icon": 10,
+      "expansion": 1,
+      "count": 1,
+      "type": 2,
+      "description": "<sprite=8>アイテム山札の上1枚を見る。\n見たカードを獲得するか、山札から次の1枚を獲得して見たカードを\n山札の上に戻す。",
+      "description_en": "Look at the top 1 of <sprite=8> Item Deck.\nGain the looked Item, or gain the next top 1 of Item Deck then put the looked Item on top of the Deck.",
+      "credit": "illus.文月甜瓜"
+    },
+    {
+      "id": 11,
+      "name": "フルーツ狩り",
+      "name_en": "Fruit Hunting",
+      "material": 0,
+      "icon": 11,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=1>\nあなたの<sprite=1>果物好みの<sprite=6>キャラクター1枚ごとに＋<sprite=1>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=1>\nGain ＋<sprite=1> for each <sprite=1>Fruit-Favorites <sprite=6>Characters.",
+      "credit": "illus.次長"
+    },
+    {
+      "id": 12,
+      "name": "バーベキュー",
+      "name_en": "Barbecue",
+      "material": 0,
+      "icon": 12,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=2><sprite=2><sprite=2>\nあなたの<sprite=2>お肉好みの<sprite=6>キャラクター1枚ごとに＋<sprite=2>",
+      "description_en": "＋<sprite=2><sprite=2><sprite=2>\nGain ＋<sprite=2> for each <sprite=2>Meat-Favorites <sprite=6>Characters.",
+      "credit": "illus.ねっつー"
+    },
+    {
+      "id": 13,
+      "name": "大漁！",
+      "name_en": "Big Catch!",
+      "material": 0,
+      "icon": 13,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=3><sprite=3><sprite=3>\nあなたの<sprite=3>お魚好みの<sprite=6>キャラクター1枚ごとに＋<sprite=3>",
+      "description_en": "＋<sprite=3><sprite=3><sprite=3>\nGain ＋<sprite=3> for each <sprite=3>Fish-Favorites <sprite=6>Characters.",
+      "credit": "illus.にとりる"
+    },
+    {
+      "id": 14,
+      "name": "取り逃した魚",
+      "name_en": "Fish Loss",
+      "material": 0,
+      "icon": 14,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=2>\n<sprite=6>キャラクターの数が最も少ないプレイヤーは全員＋<sprite=3>\n(全員の数が同じ場合も含む)",
+      "description_en": "＋<sprite=1><sprite=2>\nEach players with fewest <sprite=6>Characters gains ＋<sprite=3>.\n(includes if all players have same)",
+      "credit": "illus.かきのは"
+    },
+    {
+      "id": 15,
+      "name": "恵みの泉(猛獣注意！)",
+      "name_en": "Blessing Spring (Beware of Beasts!)",
+      "material": 0,
+      "icon": 15,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=3>\n<sprite=6>キャラクターの数が最も少ないプレイヤーは全員＋<sprite=2>\n(全員の数が同じ場合も含む)",
+      "description_en": "＋<sprite=1><sprite=3>\nEach players with fewest <sprite=6>Characters gains ＋<sprite=2>.\n(includes if all players have same)",
+      "credit": "illus.ムネネコ"
+    },
+    {
+      "id": 16,
+      "name": "穴の空いたカゴ",
+      "name_en": "Damaged Basket",
+      "material": 0,
+      "icon": 16,
+      "expansion": 1,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=2><sprite=3>\n<sprite=6>キャラクターの数が最も少ないプレイヤーは全員＋<sprite=1>\n(全員の数が同じ場合も含む)",
+      "description_en": "＋<sprite=2><sprite=3>\nEach players with fewest <sprite=6>Characters gains ＋<sprite=1>.\n(includes if all players have same)",
+      "credit": "illus.ばーどまん"
+    },
+    {
+      "id": 17,
+      "name": "大豊作",
+      "name_en": "Abundant Harvest",
+      "material": 0,
+      "icon": 17,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=3><sprite=3>\n他のプレイヤーは全員＋<sprite=1><sprite=2><sprite=3>",
+      "description_en": "＋<sprite=1><sprite=1><sprite=2><sprite=2><sprite=3><sprite=3>\nEach other players gains ＋<sprite=1><sprite=2><sprite=3>.",
+      "credit": "illus.文月甜瓜"
+    },
+    {
+      "id": 18,
+      "name": "お慈悲",
+      "name_en": "Mercy Please!",
+      "material": 0,
+      "icon": 18,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n<sprite=6>キャラクターの数が最も多いプレイヤーは全員、最も少ないプレイヤー\n1人を選んで<sprite=7>食料2枚を渡す。(全員同じ場合は何もしない)",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\nEach players with most <sprite=6>Characters gives <sprite=7>2 foods to one of the fewest players. (Do nothing if all players have same)",
+      "credit": "illus.すばた"
+    },
+    {
+      "id": 19,
+      "name": "散らばる食料",
+      "name_en": "Scattered Foods",
+      "material": 0,
+      "icon": 19,
+      "expansion": 1,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n全てのプレイヤーは<sprite=7>食料2枚を同時に左隣へ渡す。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\nEach players gives <sprite=7>2 foods to their left player at the same time.",
+      "credit": "illus.シーレ"
+    },
+    {
+      "id": 20,
+      "name": "季節の変わり目",
+      "name_en": "Turning of Season",
+      "material": 0,
+      "icon": 20,
+      "expansion": 1,
+      "count": 1,
+      "type": 0,
+      "description": "このカードを含む全ての<sprite=10>イベントをシャッフルして山札を作り直し、\nもう一度<sprite=10>イベントを引き直す。",
+      "description_en": "Shuffle all <sprite=10>Events including this card to make the new deck, and redraw <sprite=10>Event(s) again.",
+      "credit": "illus.かきのは"
+    },
+    {
+      "id": 21,
+      "name": "いってきまーす！",
+      "name_en": "I'm Going!",
+      "material": 1,
+      "icon": 0,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1>\n<sprite=12>1回探検する。\n(「<sprite=11>調査し探検する」で見ているカードはその後に戻す)",
+      "description_en": "＋<sprite=1>\n<sprite=12>Explore once.\n(If it's during \"<sprite=11>Research and Explore.\", return looking cards after above.)",
+      "credit": "illus.ぶ～け"
+    },
+    {
+      "id": 22,
+      "name": "いってきまーす！",
+      "name_en": "I'm Going!",
+      "material": 1,
+      "icon": 1,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=2>\n<sprite=12>1回探検する。\n(「<sprite=11>調査し探検する」で見ているカードはその後に戻す)",
+      "description_en": "＋<sprite=2>\n<sprite=12>Explore once.\n(If it's during \"<sprite=11>Research and Explore.\", return looking cards after above.)",
+      "credit": "illus.ぶ～け"
+    },
+    {
+      "id": 23,
+      "name": "いってきまーす！",
+      "name_en": "I'm Going!",
+      "material": 1,
+      "icon": 2,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=3>\n<sprite=12>1回探検する。\n(「<sprite=11>調査し探検する」で見ているカードはその後に戻す)",
+      "description_en": "＋<sprite=3>\n<sprite=12>Explore once.\n(If it's during \"<sprite=11>Research and Explore.\", return looking cards after above.)",
+      "credit": "illus.ぶ～け"
+    },
+    {
+      "id": 24,
+      "name": "収穫のお手伝い",
+      "name_en": "Helping Harvest",
+      "material": 1,
+      "icon": 3,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=2>\n<sprite=6>キャラクターと<sprite=9>お部屋の数の合計があなたより多いプレイヤーが\n1人でもいる場合＋<sprite=1>",
+      "description_en": "＋<sprite=1><sprite=2>\nIf there is at least one player having more total cards of <sprite=6>Characters and <sprite=9>Rooms than you, ＋<sprite=1>",
+      "credit": "illus.すばた"
+    },
+    {
+      "id": 25,
+      "name": "動物たちのお世話",
+      "name_en": "Caring Animals",
+      "material": 1,
+      "icon": 4,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=2><sprite=3>\n<sprite=6>キャラクターと<sprite=9>お部屋の数の合計があなたより多いプレイヤーが\n1人でもいる場合＋<sprite=2>",
+      "description_en": "＋<sprite=2><sprite=3>\nIf there is at least one player having more total cards of <sprite=6>Characters and <sprite=9>Rooms than you, ＋<sprite=2>",
+      "credit": "illus.文月甜瓜"
+    },
+    {
+      "id": 26,
+      "name": "海流の恩恵",
+      "name_en": "Boon from Ocean Currents",
+      "material": 1,
+      "icon": 5,
+      "expansion": 2,
+      "count": 1,
+      "type": 1,
+      "description": "＋<sprite=1><sprite=3>\n<sprite=6>キャラクターと<sprite=9>お部屋の数の合計があなたより多いプレイヤーが\n1人でもいる場合＋<sprite=3>",
+      "description_en": "＋<sprite=1><sprite=3>\nIf there is at least one player having more total cards of <sprite=6>Characters and <sprite=9>Rooms than you, ＋<sprite=3>",
+      "credit": "illus.ムネネコ"
+    },
+    {
+      "id": 27,
+      "name": "交代のチャイム",
+      "name_en": "Shift Change Bell",
+      "material": 1,
+      "icon": 6,
+      "expansion": 2,
+      "count": 1,
+      "type": 0,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\nキャラクターエリアの<sprite=6>キャラクターを全て山札に戻してシャッフル\nし、<sprite=6>キャラクターを並べ直す。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\nReturn all <sprite=6>Characters in the Character Area to its deck, shuffle it then resupply <sprite=6>Characters.",
+      "credit": "illus.次長"
+    },
+    {
+      "id": 28,
+      "name": "おねだり",
+      "name_en": "Give Me Food",
+      "material": 1,
+      "icon": 7,
+      "expansion": 2,
+      "count": 1,
+      "type": 3,
+      "description": "＋<sprite=1><sprite=2><sprite=3>\n他のプレイヤーは、<sprite=6>キャラクターと<sprite=9>お部屋の数の合計があなたより\n多い場合、その差の数だけ<sprite=7>食料をあなたに渡す。",
+      "description_en": "＋<sprite=1><sprite=2><sprite=3>\nEach other players: if their total cards of <sprite=6>Characters and <sprite=9>Rooms is more than you, give <sprite=7>foods by the difference to you.",
+      "credit": "illus.ねむ"
+    },
+    {
+      "id": 29,
+      "name": "不思議な湧き水",
+      "name_en": "Mysterious Spring",
+      "material": 1,
+      "icon": 8,
+      "expansion": 2,
+      "count": 1,
+      "type": 3,
+      "description": "現在行動しているあなたの<sprite=6>キャラクターをもう一度行動できる状態に\n戻す。\n(もしできない場合は代わりに＋<sprite=1><sprite=2><sprite=3>)",
+      "description_en": "Return your current acting <sprite=6>Characters to a state to be able to do Action once more.\n(If you can't, you get ＋<sprite=1><sprite=2><sprite=3> instead)",
+      "credit": "illus.ねっつー"
+    },
+    {
+      "id": 30,
+      "name": "みんなの大好物",
+      "name_en": "Everyone's Favorite",
+      "material": 1,
+      "icon": 9,
+      "expansion": 2,
+      "count": 1,
+      "type": 3,
+      "description": "あなたが持つ<sprite=6>キャラクターの異なる好みごとに、その好みと同じ\n<sprite=7>食料2枚を獲得する。",
+      "description_en": "Gain <sprite=7>2 foods of the same type for each different <sprite=6>Character's Favorite you have.",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 31,
+      "name": "埋蔵金発見",
+      "name_en": "Discover Buried Treasure",
+      "material": 1,
+      "icon": 10,
+      "expansion": 2,
+      "count": 1,
+      "type": 0,
+      "description": "アイテム捨て札のカードを全て山札に戻してシャッフルする。\n<sprite=8>アイテム1枚を獲得する。",
+      "description_en": "Return discarded Items to its deck then shuffle it.\nGain <sprite=8>1 Item.",
+      "credit": "illus.ざくろ"
+    }
+  ],
+  "item": [
+    {
+      "id": 0,
+      "name": "保存食",
+      "name_en": "Preserved Food",
+      "material": 0,
+      "icon": 0,
+      "expansion": 1,
+      "count": 2,
+      "description": "同じ種類の<sprite=7>食料5枚を獲得する。",
+      "description_en": "Gain <sprite=7>5 Foods of the same type.",
+      "credit": "illus.ねむ"
+    },
+    {
+      "id": 1,
+      "name": "公正な天秤",
+      "name_en": "Fair Balance",
+      "material": 0,
+      "icon": 1,
+      "expansion": 1,
+      "count": 3,
+      "description": "あなたの<sprite=7>食料2枚を食料エリアに戻す。\n2枚戻した場合、好きな<sprite=7>食料4枚を獲得する。",
+      "description_en": "Return your <sprite=7>2 Foods to the Food Area.\nIf you did, gain any <sprite=7>4 Foods.",
+      "credit": "illus.ムネネコ"
+    },
+    {
+      "id": 2,
+      "name": "エナジードリンク",
+      "name_en": "Energy Drink",
+      "material": 0,
+      "icon": 2,
+      "expansion": 1,
+      "count": 2,
+      "description": "あなたの行動済みの<sprite=6>キャラクター1枚を選び、\nもう一度行動する。",
+      "description_en": "Do Action once more with your <sprite=6>1 character that is already acted this turn.",
+      "credit": "illus.シーレ"
+    },
+    {
+      "id": 3,
+      "name": "泥棒のふろしき",
+      "name_en": "Thief's Wrapper",
+      "material": 0,
+      "icon": 3,
+      "expansion": 1,
+      "count": 2,
+      "description": "食料エリアと他のプレイヤーが持つ食料の中から\n<sprite=1>果物、<sprite=2>お肉、<sprite=3>お魚を1枚ずつ合計3枚\n取り、それらを獲得する。\nただし、<sprite=6>キャラクターの数が1枚のプレイヤー\nは選べない。",
+      "description_en": "Gain a total of 3 foods of <sprite=1>1 Fruit, <sprite=2>1 Meat, <sprite=3>1 Fish from other players' food and the Food Area.\n(You can't choose a player who having only 1 <sprite=6>Character)",
+      "credit": "illus.ぶろ"
+    },
+    {
+      "id": 4,
+      "name": "設計図",
+      "name_en": "Blueprint",
+      "material": 0,
+      "icon": 4,
+      "expansion": 1,
+      "count": 2,
+      "description": "このターン、次に<sprite=6>キャラクターが建設する\nとき、そのコストを0にする。",
+      "description_en": "This turn, the next time <sprite=6>Character does \"Build\", the cost is reduced to 0.",
+      "credit": "illus.次長"
+    },
+    {
+      "id": 5,
+      "name": "探検リュック",
+      "name_en": "Exploration Backpack",
+      "material": 0,
+      "icon": 5,
+      "expansion": 1,
+      "count": 2,
+      "description": "<sprite=11>3枚調査し探検する。",
+      "description_en": "<sprite=11>Research 3 events and Explore.",
+      "credit": "illus.ざくろ"
+    },
+    {
+      "id": 6,
+      "name": "島主のバッジ",
+      "name_en": "Badge of Island Lord",
+      "material": 0,
+      "icon": 6,
+      "expansion": 1,
+      "count": 1,
+      "description": "<sprite=7>食料の種類1つを宣言する。\n他のプレイヤーは全員、宣言されたものと同じ\n種類の<sprite=7>食料3枚をあなたに渡す。",
+      "description_en": "Name 1 type of <sprite=7>foods.\nEach other player gives <sprite=7>3 foods of the named type to you.",
+      "credit": "illus.文月甜瓜"
+    },
+    {
+      "id": 7,
+      "name": "はらぺこツールナイフ",
+      "name_en": "Hungry Toolknife",
+      "material": 0,
+      "icon": 7,
+      "expansion": 2,
+      "count": 1,
+      "description": "このターンの間、<sprite=6>キャラクターがスキルを使用\nするたびに、その好みと同じ<sprite=7>食料2つを獲得\nする。\n(ターン終了までこれをあなたの前に置いておく)",
+      "description_en": "During this turn, each time <sprite=6>Character uses \"Skill\", Gain <sprite=7>2 Foods same as it's Favorite.\n(Keep this in front of you until end of your turn)",
+      "credit": "illus.マスティ"
+    },
+    {
+      "id": 8,
+      "name": "1日お手伝い券",
+      "name_en": "One-day Helper Ticket",
+      "material": 0,
+      "icon": 8,
+      "expansion": 2,
+      "count": 1,
+      "description": "キャラクター山札の上から1枚を公開し、その\n<sprite=6>キャラクターで行動する。\nなお、スキルのコストは0になる。",
+      "description_en": "Reveal 1 card from the top of the Character deck and do Action with revealed <sprite=6>Character; their \"Skill\" cost becomes 0.",
+      "credit": "illus.かきのは"
+    },
+    {
+      "id": 9,
+      "name": "泥棒のおさいふ",
+      "name_en": "Thief's Wallet",
+      "material": 0,
+      "icon": 9,
+      "expansion": 2,
+      "count": 1,
+      "description": "このターン、次にスキルのコストを支払うとき、\n食料エリアと他のプレイヤーが持つ食料の中から\n支払ってもよい。\nただし、<sprite=6>キャラクターの数が1枚のプレイヤー\nは選べない。",
+      "description_en": "This turn, the next time you are paying cost of \"Skill\", you can pay from other players' food and the Food Area.\n(You can't choose a player who having only 1 <sprite=6>Character)",
+      "credit": "illus.にとりる"
+    },
+    {
+      "id": 10,
+      "name": "地下探検セット",
+      "name_en": "Cavern Exploration Kit",
+      "material": 0,
+      "icon": 10,
+      "expansion": 2,
+      "count": 1,
+      "description": "イベント山札の下から<sprite=12>2回探検する。",
+      "description_en": "<sprite=12>Explore twice from the bottom of the event deck.",
+      "credit": "illus.ばーどまん"
+    }
+  ],
+  "room": [
+    {
+      "id": 0,
+      "name": "お部屋",
+      "name_en": "Room",
+      "material": 0,
+      "icon": 0,
+      "count": 12,
+      "expansion": 1,
+      "credit": "illus.すばた"
+    }
+  ]
+}
